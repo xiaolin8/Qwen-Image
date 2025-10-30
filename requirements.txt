@@ -1,0 +1,11 @@
+# Base deep learning framework
+torch
+
+# Hugging Face libraries
+transformers>=4.51.3
+# The readme specifies installing the latest diffusers from git
+git+https://ghfast.top/https://github.com/huggingface/diffusers
+
+# For image handling and web requests
+Pillow
+requests
